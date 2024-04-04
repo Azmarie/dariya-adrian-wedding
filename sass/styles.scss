@@ -384,7 +384,8 @@ Intro
   }
 }
 #intro p {
-  text-align: center;
+  text-align: left;
+  margin: 0;
 }
 
 /* ==========================================================================
@@ -406,6 +407,43 @@ Intro
     text-transform: lowercase;
     color: $txt-primary;
   }
+
+  .timeline{
+    margin: 100px 0;
+    position: relative;
+  }
+
+  /* Start Agenda */
+  .agenda{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    
+    li{
+      margin: 0 0 16px;
+    }
+  }
+  .agenda li{
+    .circle{
+      width: 12px;
+      height: 12px;
+      background: #800020;;
+    -moz-border-radius: 50px;
+    -webkit-border-radius: 50px;
+    border-radius: 50px;
+    }
+    .middle{
+      display: inline-block;
+      position: relative;
+      margin: 0 20px;
+    }
+  }
+  .agenda .middle .line{width: 1px; height: 17px; background: #800020; position: absolute; left: 7px; top: 18px;}
+  .agenda li:last-child .line{display: none;}
 }
 
 /* ==========================================================================

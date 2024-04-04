@@ -43,7 +43,7 @@ $title-line-height: 37px;
 /* ==========================================================================
 Typography
 ========================================================================== */
-p {
+p, li {
   font-size: $font-size-p;
   line-height: $base-line-height;
   color: $txt-primary;
