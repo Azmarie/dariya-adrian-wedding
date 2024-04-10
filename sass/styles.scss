@@ -243,7 +243,7 @@ Hero
 .hero {
   font-family: $playfair-display;
   min-height: 1000px;
-  background: url('../img/hero-min.jpg') center center;
+  background: url('../img/hero-main.jpg') center center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -377,7 +377,7 @@ Intro
     height: auto;
   }
   .intro-individual {
-    margin: 40px;
+    margin-top: 40px;
   }
   a {
     text-decoration: underline;
