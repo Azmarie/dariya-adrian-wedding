@@ -389,17 +389,19 @@ Intro
 }
 
 /* ==========================================================================
-.events
+#events
 ========================================================================== */
-.events {
+#events {
   background-color: #f0f0f0;
-  .leftcol {
-    padding-right: 100px;
-    border-right: solid 1px $keyline-color;
-  }
-  .rightcol {
-    padding-left: 100px;
-  }
+  padding: 20px 0;
+  // height: 480px;
+  // .leftcol {
+  //   padding-right: 100px;
+  //   border-right: solid 1px $keyline-color;
+  // }
+  // .rightcol {
+  //   padding-left: 100px;
+  // }
 
   .time {
     font-size: 13px;
@@ -456,6 +458,9 @@ Intro
   color: aliceblue;
 }
 
+.parallax-mobile{
+  display: none;
+}
 .parallax-inner{
   padding-top: 20%;
   padding-bottom: 20%;
@@ -472,6 +477,10 @@ Intro
 
   details {
     cursor: pointer;
+  }
+
+  summary  {
+    list-style: none;
   }
 
   summary:focus-visible {
